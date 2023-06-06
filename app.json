@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "authentication",
+    "slug": "authentication",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "schema": "com.gopalsingh.authsessiongoogle",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gopalsingh.authsessiongoogle"
+    },
+    "android": {
+      "package": "com.gopalsingh.authsessiongoogle",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0343246b-d965-4054-ac4b-0d2374bb2ea8"
+      }
+    }
+  }
+}
